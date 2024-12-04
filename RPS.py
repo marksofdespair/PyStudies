@@ -13,3 +13,6 @@ computer_score = 0
 
 def start () :
   print("Let's play a game of Rock, Paper, Scissors.")
+  while game () :
+    pass
+  score ()
