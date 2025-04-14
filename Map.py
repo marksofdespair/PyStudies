@@ -1,4 +1,6 @@
 # The map() function is a built-in function in Python that applies a given function to each item in an iterable (like a list, tuple, or string) and returns a new iterable as a result.
+# The basic syntax of map() is:
+map(function, iterable, [iterable2, iterable3, ...]) 
 
 def double(x): 
 
