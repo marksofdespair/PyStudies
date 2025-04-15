@@ -51,3 +51,44 @@ for name in author_names:
   author_last_names.append(name.split()[-1])
   
 print(author_last_names)
+
+# Ex
+spring_storm_text = \
+"""The sky has given over 
+its bitterness. 
+Out of the dark change 
+all day long 
+rain falls and falls 
+as if it would never end. 
+Still the snow keeps 
+its hold on the ground. 
+But water, water 
+from a thousand runnels! 
+It collects swiftly, 
+dappled with black 
+cuts a way for itself 
+through green ice in the gutters. 
+Drop after drop it falls 
+from the withered grass-stems 
+of the overhanging embankment."""
+
+spring_storm_lines = spring_storm_text.split('\n')
+
+##########################################################
+# Joining Strings
+
+# Syntax:
+'delimiter'.join(list_you_want_to_join)
+
+# Ex
+reapers_line_one_words = ["Black", "reapers", "with", "the", "sound", "of", "steel", "on", "stones"]
+
+reapers_line_one = ' '.join(reapers_line_one_words)
+
+# Ex
+winter_trees_lines = ['All the complicated details', 'of the attiring and', 'the disattiring are completed!', 'A liquid moon', 'moves gently among', 'the long branches.', 'Thus having prepared their buds', 'against a sure winter', 'the wise trees', 'stand sleeping in the cold.']
+
+winter_trees_full = '\n'.join(winter_trees_lines)
+
+print(winter_trees_full)
+
